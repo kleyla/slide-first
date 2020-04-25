@@ -56,7 +56,7 @@ body {
   position: absolute;
   bottom: 30px;
   width: 90%;
-  height: 100v;
+  /* height: 1; */
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 20px;
@@ -111,4 +111,38 @@ body {
 }
 .icon-contactos img {
   width: 30px;
+}
+@media screen and (max-width: 900px) {
+  .page {
+    height: 90vh;
+  }
+  .titulo {
+    font-size: 30px;
+  }
+  .subtitulo {
+    font-size: 20px;
+  }
+  .elem-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background: red;
+  }
+  .contenido {
+    position: relative;
+    bottom: 0;
+  }
+  .w40,
+  .w30,
+  .w60,
+  .w70 {
+    width: 100%;
+  }
+  .parrafo {
+    width: 70%;
+  }
+  .imagen {
+    width: 70%;
+  }
 }
